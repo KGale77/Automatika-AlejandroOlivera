@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: hsla(57, 100%, 48%, 1);
+
+    background: linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f4e900", endColorstr="#60b6f1", GradientType=1 );
+        
+        
+}
+
+ .Titulo_principal {
+    color: brown;
+    border-style: solid;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    background: hsla(217, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+    
+    
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(./images/header.jpg);
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+
+  }
+
+  .header p {
+
+    font-size: xx-large;
+    justify-content: right;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-right: 20px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 4%;
+
+    
+}
+
+nav ul  {
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 2%;
+      
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    justify-content: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+
+
+.pie {
+
+    display: flex;
+    background-color: rgb(197, 166, 226);
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+
+.pie h3 {
+
+    padding: 5%;
+    margin-top: 5%;
+
+}
+
+main article {
+
+    padding: 2%;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-around    ;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .fotoMobile {
+        max-width:300px ;
+        max-height: 300px ;
+        justify-content: center;
+       display: flex;
+    }
+    
+    .Navbar ul li a {
+        font-size: 10px !important;
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+    }
+
+    .Navbar ul {
+        display: flex;
+    }
+
+    .Navbar ul li {
+        margin-right: 5px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 2%;
+        margin-left:  5px;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around    ;
+        flex-direction: column;
+        justify-items: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 5%;
+    }
+
+    .pie {
+
+        display: flex;
+        background-color: rgb(197, 166, 226);
+        flex-direction: column;
+        
+      
+        
+        padding-left: 10 px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+
+    .pie section{
+
+        padding-left: 10 px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .header {
+        padding: 60px;
+        font-size: 30px;
+        padding: 5%;
+            
+      }
+      
+      .header h1{
+        font-size: 25px;
+
+      }
+      .header p {
+        font-size: 20px;
+      }
+
+      .Titulo_principal {
+        font-size: medium;
+      }
+}
