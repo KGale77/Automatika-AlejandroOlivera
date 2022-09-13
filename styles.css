@@ -3,6 +3,12 @@
     padding: 0;
 
 }
+
+.xyz-in:hover, .Titulo_principal:hover {
+    color: black;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgba(9,121,114,1) 36%, rgba(0,212,255,1) 100%);
+  }
 body {
     background: hsla(57, 100%, 48%, 1);
 
