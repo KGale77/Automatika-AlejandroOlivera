@@ -12,19 +12,21 @@ background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgba(9,121,114,1) 36%, rgba
 body {
     background: hsla(57, 100%, 48%, 1);
 
-    background: linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    background: linear-gradient(90deg, rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
     
-    background: -moz-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    background: -moz-linear-gradient(90deg,   rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
     
-    background: -webkit-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg,  rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
+    
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f4e900", endColorstr="#60b6f1", GradientType=1 );
         
         
 }
 
- .Titulo_principal {
-    color: brown;
+ .Titulo_principal, .pie {
+    color: rgb(20, 4, 4);
     border-style: solid;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -35,11 +37,11 @@ body {
 
     background: hsla(217, 100%, 50%, 1);
 
-background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+background: linear-gradient(90deg, rgb(125, 158, 211) 0%, rgb(99, 187, 197) 100%);
 
-background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+background: -moz-linear-gradient(90deg,  rgb(125, 158, 211) 0%, rgb(99, 187, 197) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+background: -webkit-linear-gradient(90deg, rgb(125, 158, 211) 0%, rgb(99, 187, 197) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
     
@@ -106,22 +108,7 @@ p {
 }
 
 
-.pie {
 
-    display: flex;
-    background-color: rgb(197, 166, 226);
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-around;
-
-}
-
-.pie h3 {
-
-    padding: 5%;
-    margin-top: 5%;
-
-}
 
 main article {
 
